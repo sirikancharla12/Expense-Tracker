@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 0;
+}
+
+.amount {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.track {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  width: 20vw;
+  box-sizing: border-box;
+  font-size: larger;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.budget, .remains, .spent {
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 80vw;
+  height: 15vh;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.main input {
+  font-size: large;
+  margin: 10px;
+  padding: 10px;
+}
+
+#text {
+  width: 30vw;
+}
+
+.add,#del {
+  font-size: large;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+table {
+  width: 80vw;
+  max-height: 20vh;
+  overflow-y: scroll;
+  margin: 20px;
+  border-collapse: collapse;
+  border: 5px solid black;
+  background-color: white;
+}
+
+th {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  text-align: center;
+  height: 10vh;
+  width: 20vw;
+  margin-top: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td {
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+
+.budget-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.budget-input {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+
+}
+
+.budget-input input {
+  font-size: large;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  color: black;
+}
+
+.set-budget {
+  font-size: large;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.set-budget:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+
